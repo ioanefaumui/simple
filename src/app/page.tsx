@@ -1,7 +1,10 @@
+import Container from "@/components/Container/Container";
+import NewPostsSection from "./sections/NewPostsSection/NewPostsSection";
+
 export default function Home() {
   return (
     <main>
-      <h1>Hello world</h1>
+      <NewPostsSection />
     </main>
   );
 }
